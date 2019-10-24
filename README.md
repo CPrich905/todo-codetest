@@ -23,7 +23,7 @@ When it came to the styling of the site, I again opted for simple over complex. 
 I am quite pleased with the overall layout and functionality of this app, in particular separating out the independent scrolling for remaining and completed tasks  while on desktop. I feel that this allows the user to better reference the separate lists and is cleaner than having a single list with strike throughs on completed tasks.
 
 ## Challenges
-This task was relatively simple, however I did have some issues with my initial setup. These problems were due to an incorrect entry in the webpack.config file and once identified the project ran smoothly.
+This task was relatively simple, however I did have some issues with my initial setup which ate in to the time I had available for this task. These problems were due to an incorrect entry in the webpack.config file and once identified the project ran smoothly.
 
 ## Future development
-If I more time with this project, I would introduce CRUD functionality and a separate back-end, moving the sort/filter functions to the back end to enable further filtering options & interrelation between task.
+If I more time with this project, I would have liked to introduce CRUD functionality and a separate back-end, moving the sort/filter functions to the back end to enable further filtering options & interrelation between tasks.
