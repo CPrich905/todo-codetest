@@ -18,8 +18,6 @@ My first action was to create a simple wire-frame for my React set up, separatin
 
 For this same reason, I kept my styling as simple as possible while prioritising functionality. This meant displaying a counter and next task at the top for quick reference, and prioritising incomplete over completed tasks for mobile styling.
 
-When it came to the styling of the site, I again opted for simple over complex. The first thing the user sees below the headline is a counter of completed and remaining tasks and the next task on the todo list (based on id.)
-
 ## Wins
 I am quite pleased with the overall layout and functionality of this app, in particular separating out the independent scrolling for remaining and completed tasks  while on desktop. I feel that this allows the user to better reference the separate lists and is cleaner than having a single list with strike throughs on completed tasks.
 
