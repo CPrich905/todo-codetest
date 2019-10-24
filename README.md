@@ -4,11 +4,12 @@
 
 Clone this repository and run: `npm run serve` from the terminal. A new window will open up with the ToDo app.
 
-Requirements:
-- complete the following tasks using React.js
-- git (https://help.github.com/en/articles/set-up-git)
-- node/npm (https://nodejs.org/en/download/)
-- github account (https://github.com)
+Task requirements:
+- complete the following using React.js
+- Load and display a todo list provided data.json file, ordering them on their ID in descending order
+- Display the total number of _todo_ items
+- Display the completed number of _todo_ items
+- Add styling
 
 ## Timeframe: 4 hrs
 
