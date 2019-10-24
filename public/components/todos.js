@@ -8,6 +8,8 @@ class ToDos extends Component {
     this.state = { data: null, completed: null, incomplete: null, nextTask: null }
   }
 
+
+  //request data. Filter data for completed tasks. setState for completed, incomplete & nextTask. Sort data by id.
   getData() {
     axios.get('../data.json')
       .then((res) => {
@@ -32,11 +34,11 @@ class ToDos extends Component {
     console.log(this.state.nextTask)
     return (
       <main>
-        <div className="todo-counter">
+        <div className="todo-counter col-100">
           <h2>You have completed {this.state.completed.length} of {this.state.data.length} tasks</h2>
           <span>Your next task is: {this.state.nextTask.title}</span>
         </div>
-        <div className="col-50 remaining">
+        <div className="col-100 col-50 remaining">
           <div className="taskbox-header">
             <h3>Remaining Tasks</h3>
             <p>The following tasks remain on your todo list:</p>
@@ -49,7 +51,7 @@ class ToDos extends Component {
             ))}
           </div>
         </div>
-        <div className="col-50 completed">
+        <div className="col-100 col-50 completed">
           <div className="taskbox-header">
             <h3>Completed tasks</h3>
             <p>Strong work! So far you have completed the following:</p>
