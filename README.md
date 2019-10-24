@@ -2,6 +2,8 @@
 
 ## Setup
 
+Clone this repository and run: `npm run serve` from the terminal. A new window will open up with the ToDo app.
+
 Requirements:
 - complete the following tasks using React.js
 - git (https://help.github.com/en/articles/set-up-git)

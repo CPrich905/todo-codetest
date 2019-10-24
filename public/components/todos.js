@@ -9,7 +9,8 @@ class ToDos extends Component {
   }
 
 
-  //request data. Filter data for completed tasks. setState for completed, incomplete & nextTask. Sort data by id.
+  //getData makes the initial axios requiest to data.json, running a .then block filtering the return by the bolean completed. The following information is then set in state: completed, incomplete next tasks and data.
+
   getData() {
     axios.get('../data.json')
       .then((res) => {
@@ -23,14 +24,19 @@ class ToDos extends Component {
         this.setState( { data: res.data })
       })
       .catch(err => console.log(err))
+
+
   }
+  //An alternative approach to this could have been to save the data to state and filter for each category separately.
+
 
   componentDidMount() {
     this.getData()
   }
 
+  //render function checks for the presence of the data set in the getData function. If the data is present, the page render.
   render() {
-    if(!this.state.data || !this.state.completed || !this.state.incomplete || !this.state.nextTask) return null
+    if(!this.state.data) return null
     console.log(this.state.nextTask)
     return (
       <main>
