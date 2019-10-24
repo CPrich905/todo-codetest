@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding 5px;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  margin: 0, auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-50 {
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+
+.banner {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background-color: #06183D;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.banner-img {
+  align-self: flex-end;
+}
+
+.banner-text {
+  margin-top: 10px;
+  display: inline;
+}
+
+.todo-counter {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.taskbox-header {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.remaining {
+  height: 80vh;
+}
+
+.completed {
+  height: 80vh;
+}
+
+.scrolls {
+  display: block;
+  height: 80%;
+  overflow: auto;
+  padding: 5px;
+}
+
+.completed-items {
+  text-decoration: line-through;
+}
